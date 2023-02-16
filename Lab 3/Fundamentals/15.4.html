@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            function power(x, n) {
+                let y = x;
+                for (let i = 1; i < n; i++){
+                    y *= x;
+                }
+                return y;
+            }
+            x = +prompt("first");
+            n = +prompt("second");
+            if (n >= 1){
+                alert(power(x, n));
+            }
+        </script>
+    </body>
+</html>
